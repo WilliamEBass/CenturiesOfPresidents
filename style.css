@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #004080; 
+}
+
+header, nav, article, aside, footer {
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+header {
+    background-color: #6c757d; 
+    height: 55px;
+}
+
+.header-flag {
+    position: absolute;
+    top: 42px;
+    right: 50px;
+    height: 50px;
+    width: auto;
+}
+
+nav {
+    background-color: #adb5bd; 
+    height: 30px;
+}
+
+.main-content {
+    display: flex;
+    gap: 15px; 
+}
+
+article {
+    background-color: #adb5bd; 
+    flex: 3; 
+    height: 500px;
+}
+
+aside {
+    background-color: #495057; 
+    flex: 1; 
+    height: 500px;
+}
+
+.PresidentImg {
+    max-width: 100%;
+    height: 500px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f8f9fa; 
+    color: #333;
+    height: 30px;
+}
